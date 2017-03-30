@@ -2780,22 +2780,6 @@
 		<entity_convert pattern="tag_transform" from_tag="color_purple" if_tag1="route_foot" if_value1="" if_not_tag1="osmc_waycolor" to_tag1="osmc_waycolor" to_value1="purple" apply_to="way,relation"/>
 	</category>
 
-	<!-- For the purpose of rendering the color-coded trails using the tag "colour" or "color", when they are not used tags "osmc_symbol" -->
-	<category name="color_coded" poi="false">
-		<type tag="color_red" minzoom="11" additional="true" relation="true"/>
-		<type tag="color_brown" minzoom="11" additional="true" relation="true"/>
-		<type tag="color_orange" minzoom="11" additional="true" relation="true"/>
-		<type tag="color_yellow" minzoom="11" additional="true" relation="true"/>
-		<type tag="color_darkyellow" minzoom="11" additional="true" relation="true"/>
-		<type tag="color_lightgreen" minzoom="11" additional="true" relation="true"/>
-		<type tag="color_green" minzoom="11" additional="true" relation="true"/>
-		<type tag="color_lightblue" minzoom="11" additional="true" relation="true"/>
-		<type tag="color_blue" minzoom="11" additional="true" relation="true"/>
-		<type tag="color_purple" minzoom="11" additional="true" relation="true"/>
-		<type tag="color_black" minzoom="11" additional="true" relation="true"/>
-		<type tag="color_gray" minzoom="11" additional="true" relation="true"/>
-		<type tag="color_white" minzoom="11" additional="true" relation="true"/>
-	</category>
 
 	<category name="cycleway">
 		<type tag="cycleway" value="lane" minzoom="12"/>
